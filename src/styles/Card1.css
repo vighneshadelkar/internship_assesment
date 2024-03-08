@@ -1,0 +1,80 @@
+.cardContainer{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #FEFFFE;
+    height: 100%px;
+
+}
+
+.cardWrapper{
+    display: flex;
+    column-gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+.col1{
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.col2{
+    flex: 6.5;
+    width: 502px;
+    padding: 10px;
+    height: 255px;
+}
+
+.card1Title{
+    width: 502px;
+}
+.col3{
+    flex: 3.5;
+    padding: 10px;
+    padding-top: 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rating{
+    font-size: 40px;
+    margin: 0;
+    color: #074786;
+}
+.ratingTitle{
+    margin: 0;
+    color: #074786;
+}
+.ratingBox{
+    background-color: #F3F8FE;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    width: 135px;
+    padding-top: 10px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    width: 100%;
+}
+.view{
+    background-color: #1A89F4;
+    border: 0;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+}

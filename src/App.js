@@ -1,5 +1,6 @@
 
 import './App.css';
+import Home from '../src/pages/Home.jsx';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
   
       </header>
+      <main>
+        <Home/>
+      </main>
     </div>
   );
 }
